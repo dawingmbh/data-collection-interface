@@ -1,0 +1,26 @@
+{
+	"trait_set_idx": 0,
+	"traits": [
+		{
+			"trait_idx": 0,
+			"formats": [
+				{
+					"format_idx": 0,
+					"format_type": {
+						"is_identifying": true,
+						"is_pass_through": true,
+						"is_info": false
+					},
+					"levels": [
+						{
+							"level_idx": 0,
+							"code": "LeafRust"
+						}
+					]
+				}
+			],
+			"value_range_idx": 0,
+			"subsample_count": 1
+		}
+	]
+}

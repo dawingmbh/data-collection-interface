@@ -1,0 +1,668 @@
+{
+	"interface_version": "0.2.0",
+	"trial_management_software": {
+		"name": "smatrix",
+		"version": "2.0.0.2007"
+	},
+	"trial_identifier": "Example2-someInternalStuff",
+	"trial_display_name": "Example2",
+	"trial_unit_sets": [
+		{
+			"trial_unit_set_idx": 0,
+			"formats": [
+				{
+					"format_idx": 0,
+					"format_type": {
+						"is_identifying": true,
+						"is_pass_through": false,
+						"is_info": false
+					},
+					"levels": [
+						{
+							"level_idx": 0,
+							"code": "Tray"
+						},
+						{
+							"level_idx": 1,
+							"code": "Plant"
+						}
+					]
+				},
+				{
+					"format_idx": 1,
+					"format_type": {
+						"is_identifying": false,
+						"is_pass_through": true,
+						"is_info": false
+					},
+					"levels": [
+						{
+							"level_idx": 0,
+							"code": "RowID"
+						}
+					]
+				}
+			],
+			"trial_units": [
+				{
+					"trial_unit_idx": 0,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "1"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "1"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "a3f17d43-db07-4815-a822-12c8b6d3dceb"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 1,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "1"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "2"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "b914e749-eaea-4c9a-a825-6a8316406fd0"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 2,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "1"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "3"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "98f41faa-db51-4bc6-97d5-6e9786221250"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 3,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "2"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "1"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "3352b26b-a284-4f2e-b929-288af7718a9b"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 4,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "2"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "2"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "4cb9175b-a9c0-4056-ad91-b28a7ee9578f"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 5,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "2"
+						},
+						{
+							"format_idx": 0,
+							"level_idx": 1,
+							"value": "3"
+						},
+						{
+							"format_idx": 1,
+							"level_idx": 0,
+							"value": "19953118-d4da-420d-9313-4c462fdc0ddb"
+						}
+					]
+				}
+			]
+		}
+	],
+	"trait_sets": [
+		{
+			"trait_set_idx": 0,
+			"traits": [
+				{
+					"trait_idx": 0,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": false,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Begin of Flowering"
+								}
+							]
+						}
+					],
+					"value_range_idx": 0,
+					"subsample_count": 1
+				},
+				{
+					"trait_idx": 1,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": false,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Height"
+								}
+							]
+						}
+					],
+					"value_range_idx": 1,
+					"subsample_count": 1
+				},
+				{
+					"trait_idx": 2,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": false,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Phytotoxicity"
+								}
+							]
+						}
+					],
+					"value_range_idx": 2,
+					"subsample_count": 1
+				}
+			]
+		}
+	],
+	"executions": [
+		{
+			"execution_idx": 0,
+			"identifier": "Execution-internalId",
+			"table": {
+				"trial_unit_set_idx": 0,
+				"trait_set_idx": 0
+			},
+			"execution_trait_set_idx": -1,
+			"data_values": [
+				{
+					"value": "2021-04-21",
+					"trial_unit_idx": 0,
+					"trait_idx": 0,
+					"subsample_idx": 0
+				},
+				{
+					"value": "small",
+					"trial_unit_idx": 0,
+					"trait_idx": 1,
+					"subsample_idx": 0
+				},
+				{
+					"value": "1.6",
+					"trial_unit_idx": 0,
+					"trait_idx": 2,
+					"subsample_idx": 0
+				},
+				{
+					"value": "2021-04-22",
+					"trial_unit_idx": 1,
+					"trait_idx": 0,
+					"subsample_idx": 0
+				},
+				{
+					"value": "medium",
+					"trial_unit_idx": 1,
+					"trait_idx": 1,
+					"subsample_idx": 0
+				},
+				{
+					"value": "10.81",
+					"trial_unit_idx": 1,
+					"trait_idx": 2,
+					"subsample_idx": 0
+				},
+				{
+					"value": "2021-04-23",
+					"trial_unit_idx": 2,
+					"trait_idx": 0,
+					"subsample_idx": 0
+				},
+				{
+					"value": "high",
+					"trial_unit_idx": 2,
+					"trait_idx": 1,
+					"subsample_idx": 0
+				},
+				{
+					"value": "7",
+					"trial_unit_idx": 2,
+					"trait_idx": 2,
+					"subsample_idx": 0
+				}
+			]
+		}
+	],
+	"value_ranges": [
+		{
+			"value_range_idx": 0,
+			"number_generators": [],
+			"date_generator": {
+				"format": "yyyy-MM-dd"
+			},
+			"allow_free_text": false
+		},
+		{
+			"value_range_idx": 1,
+			"number_generators": [],
+			"value_list": [
+				{
+					"code": "small"
+				},
+				{
+					"code": "medium"
+				},
+				{
+					"code": "high"
+				}
+			],
+			"allow_free_text": false
+		},
+		{
+			"value_range_idx": 2,
+			"number_generators": [
+				{
+					"from": 0,
+					"to": 100,
+					"by": 0.01
+				}
+			],
+			"allow_free_text": false
+		}
+	],
+	"value_configuration": {
+		"n_a_representation": "---"
+	},
+	"dictionary": [
+		{
+			"code": "Begin of Flowering",
+			"representations": [
+				{
+					"text": "Blühbeginn",
+					"culture": "de",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Begin of Flowering",
+					"culture": "en",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Bloeibegin",
+					"culture": "nl",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Inicio de la floración",
+					"culture": "es",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Floração",
+					"culture": "pt",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Floraison",
+					"culture": "fr",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Inizio fioritura",
+					"culture": "it",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				}
+			]
+		},
+		{
+			"code": "Height",
+			"representations": [
+				{
+					"text": "Wuchshöhe",
+					"culture": "de",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Height",
+					"culture": "en",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Altura",
+					"culture": "es",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Hoogte",
+					"culture": "nl",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Altura",
+					"culture": "pt",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Hauteur des plantes",
+					"culture": "fr",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Altezza",
+					"culture": "it",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				}
+			]
+		},
+		{
+			"code": "Phytotoxicity",
+			"representations": [
+				{
+					"text": "Fyto",
+					"culture": "nl",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Fitotoxicidad",
+					"culture": "es",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Fito",
+					"culture": "es",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Fitotoxicidade",
+					"culture": "pt",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Fito",
+					"culture": "pt",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Phytotoxicité",
+					"culture": "fr",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Phyto",
+					"culture": "fr",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Fitotossicità",
+					"culture": "it",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Fito",
+					"culture": "it",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Fytotoxiciteit",
+					"culture": "nl",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Phyto",
+					"culture": "de",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Phytotoxicity",
+					"culture": "en",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Phyto",
+					"culture": "en",
+					"for_display": false,
+					"for_tts": false,
+					"for_asr": true
+				},
+				{
+					"text": "Phytotoxizität",
+					"culture": "de",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				}
+			]
+		},
+		{
+			"code": "Tray",
+			"representations": [
+				{
+					"text": "Schale",
+					"culture": "de",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Tray",
+					"culture": "en",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Bandeja",
+					"culture": "pt",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Schaal",
+					"culture": "nl",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Bandeja",
+					"culture": "es",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Coque",
+					"culture": "fr",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Germinatoio",
+					"culture": "it",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				}
+			]
+		},
+		{
+			"code": "Plant",
+			"representations": [
+				{
+					"text": "Pflanze",
+					"culture": "de",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Plant",
+					"culture": "en",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Plant",
+					"culture": "nl",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Planta",
+					"culture": "es",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Planta",
+					"culture": "pt",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Plante",
+					"culture": "fr",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				},
+				{
+					"text": "Pianta",
+					"culture": "it",
+					"for_display": true,
+					"for_tts": true,
+					"for_asr": true
+				}
+			]
+		}
+	]
+}

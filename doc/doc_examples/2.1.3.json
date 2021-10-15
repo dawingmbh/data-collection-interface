@@ -1,0 +1,119 @@
+{
+	"trial_unit_set_idx": 0,
+	"formats": [
+		{
+			"format_idx": 0,
+			"format_type": {
+				"is_identifying": true,
+				"is_pass_through": false,
+				"is_info": false
+			},
+			"levels": [
+				{
+					"level_idx": 0,
+					"code": "Plot"
+				},
+				{
+					"level_idx": 1,
+					"code": "Plant"
+				}
+			]
+		},
+		{
+			"format_idx": 1,
+			"format_type": {
+				"is_identifying": false,
+				"is_pass_through": true,
+				"is_info": false
+			},
+			"levels": [
+				{
+					"level_idx": 0,
+					"code": "TrialUnitId"
+				}
+			]
+		}
+	],
+	"trial_units": [
+		{
+			"trial_unit_idx": 0,
+			"id_values": [
+				{
+					"format_idx": 0,
+					"level_idx": 0,
+					"value": "1"
+				},
+				{
+					"format_idx": 0,
+					"level_idx": 1,
+					"value": "1"
+				},
+				{
+					"format_idx": 1,
+					"level_idx": 0,
+					"value": "X43951"
+				}
+			]
+		},
+		{
+			"trial_unit_idx": 1,
+			"id_values": [
+				{
+					"format_idx": 0,
+					"level_idx": 0,
+					"value": "1"
+				},
+				{
+					"format_idx": 0,
+					"level_idx": 1,
+					"value": "2"
+				},
+				{
+					"format_idx": 1,
+					"level_idx": 0,
+					"value": "X34231"
+				}
+			]
+		},
+		{
+			"trial_unit_idx": 2,
+			"id_values": [
+				{
+					"format_idx": 0,
+					"level_idx": 0,
+					"value": "2"
+				},
+				{
+					"format_idx": 0,
+					"level_idx": 1,
+					"value": "1"
+				},
+				{
+					"format_idx": 1,
+					"level_idx": 0,
+					"value": "X02394"
+				}
+			]
+		},
+		{
+			"trial_unit_idx": 3,
+			"id_values": [
+				{
+					"format_idx": 0,
+					"level_idx": 0,
+					"value": "2"
+				},
+				{
+					"format_idx": 0,
+					"level_idx": 1,
+					"value": "2"
+				},
+				{
+					"format_idx": 1,
+					"level_idx": 0,
+					"value": "X12928"
+				}
+			]
+		}
+	]
+}

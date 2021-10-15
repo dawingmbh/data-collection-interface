@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollectionInterface", "DataCollectionInterface\DataCollectionInterface.csproj", "{A0861FFD-AFAF-4113-8602-5A539EAC9BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0861FFD-AFAF-4113-8602-5A539EAC9BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0861FFD-AFAF-4113-8602-5A539EAC9BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0861FFD-AFAF-4113-8602-5A539EAC9BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0861FFD-AFAF-4113-8602-5A539EAC9BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78A7545-D403-440C-B8CC-3D98DB8E17B1}
+	EndGlobalSection
+EndGlobal

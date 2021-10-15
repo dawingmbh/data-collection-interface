@@ -1,0 +1,175 @@
+{
+	"interface_version": "0.2.0",
+	"trial_identifier": "Example 1",
+	"trial_unit_sets": [
+		{
+			"trial_unit_set_idx": 0,
+			"formats": [
+				{
+					"format_idx": 0,
+					"format_type": {
+						"is_identifying": true,
+						"is_pass_through": true,
+						"is_info": false
+					},
+					"levels": [
+						{
+							"level_idx": 0,
+							"code": "Plot"
+						}
+					]
+				}
+			],
+			"trial_units": [
+				{
+					"trial_unit_idx": 0,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "1"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 1,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "2"
+						}
+					]
+				},
+				{
+					"trial_unit_idx": 2,
+					"id_values": [
+						{
+							"format_idx": 0,
+							"level_idx": 0,
+							"value": "3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"trait_sets": [
+		{
+			"trait_set_idx": 0,
+			"traits": [
+				{
+					"trait_idx": 0,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": true,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Aphids"
+								}
+							]
+						}
+					],
+					"value_range_idx": 0,
+					"subsample_count": 1
+				},
+				{
+					"trait_idx": 1,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": true,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Leaf Rust"
+								}
+							]
+						}
+					],
+					"value_range_idx": 1,
+					"subsample_count": 1
+				},
+				{
+					"trait_idx": 2,
+					"formats": [
+						{
+							"format_idx": 0,
+							"format_type": {
+								"is_identifying": true,
+								"is_pass_through": true,
+								"is_info": false
+							},
+							"levels": [
+								{
+									"level_idx": 0,
+									"code": "Mildew"
+								}
+							]
+						}
+					],
+					"value_range_idx": 2,
+					"subsample_count": 1
+				}
+			]
+		}
+	],
+	"executions": [
+		{
+			"execution_idx": 0,
+			"table": {
+				"trial_unit_set_idx": 0,
+				"trait_set_idx": 0
+			},
+			"execution_trait_set_idx": -1
+		}
+	],
+	"value_ranges": [
+		{
+			"value_range_idx": 0,
+			"number_generators": [
+				{
+					"from": 0,
+					"to": 500,
+					"by": 1.0
+				}
+			],
+			"allow_free_text": false
+		},
+		{
+			"value_range_idx": 1,
+			"number_generators": [
+				{
+					"from": 0,
+					"to": 100,
+					"by": 1.0
+				}
+			],
+			"allow_free_text": false
+		},
+		{
+			"value_range_idx": 2,
+			"number_generators": [
+				{
+					"from": 0,
+					"to": 9,
+					"by": 1.0
+				}
+			],
+			"allow_free_text": false
+		}
+	],
+	"value_configuration": {
+		"n_a_representation": "---"
+	}
+}
