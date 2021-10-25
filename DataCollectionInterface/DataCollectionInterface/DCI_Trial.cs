@@ -32,7 +32,7 @@ namespace DataCollectionInterface
 
         /// <summary>Optional read-only information of the trial as <see cref="DCI_KeyValuePair"/>s. It can be used
         /// for additional display to the trialist</summary>
-        [JsonProperty("trial_information")]
+        [JsonProperty("trial_information", NullValueHandling = NullValueHandling.Ignore)]
         public List<DCI_KeyValuePair> TrialInformation { get; set; }
 
         /// <summary>The definition of trial unit sets, which can be used in <see cref="DCI_Execution"/>s</summary>

@@ -15,19 +15,11 @@ namespace DataCollectionInterface
         [JsonProperty("execution_idx")]
         public int ExecutionIdx { get; set; }
 
-        /// <summary> Optional field.
-        /// It makes sense only for trials with multiple executions.
-        /// The content (or if present, its representation) is displayed to allow selecting a specific
-        /// execution when opening a trial, and to indicate the currently opened execution.
-        /// </summary>
-        [JsonProperty("code")]
-        public string Code { get; set; }
-
         /// <summary> Optional field. It makes sense only for trials with multiple executions.
         /// The information will not be shown to the user, but can be used for alignement in the 
         /// trial management software when importing the collected data.
         /// </summary>
-        [JsonProperty("identifier")]
+        [JsonProperty("identifier", NullValueHandling = NullValueHandling.Ignore)]
         public string Identifier { get; set; }
 
         /// <summary>Defines the <see cref="DCI_Table"/> used in this execution.</summary>
@@ -43,11 +35,11 @@ namespace DataCollectionInterface
         public int ExecutionTraitSetIdx { get; set; } = -1;
 
         /// <summary>The list of <see cref="DCI_DataValue"/>s that were collected for this execution </summary>
-        [JsonProperty("data_values")]
+        [JsonProperty("data_values", NullValueHandling = NullValueHandling.Ignore)]
         public List<DCI_DataValue> DataValues { get; set; }
 
         /// <summary>The list of <see cref="DCI_Comment"/>s that were collected for this execution </summary>
-        [JsonProperty("comments")]
+        [JsonProperty("comments", NullValueHandling = NullValueHandling.Ignore)]
         public List<DCI_Comment> Comments { get; set; }
     }
 }

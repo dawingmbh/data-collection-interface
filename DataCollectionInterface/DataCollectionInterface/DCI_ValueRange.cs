@@ -17,15 +17,15 @@ namespace DataCollectionInterface
 
         /// <summary>See <see cref="DCI_NumberGenerator"/> for how to define supported number ranges for this 
         /// value range.</summary>
-        [JsonProperty("number_generators")]
+        [JsonProperty("number_generators", NullValueHandling = NullValueHandling.Ignore)]
         public List<DCI_NumberGenerator> NumberGenerators { get; set; }
 
         /// <summary>See <see cref="DCI_DateGenerator"/> for how to define date support for this value range.</summary>
-        [JsonProperty("date_generator")]
+        [JsonProperty("date_generator", NullValueHandling = NullValueHandling.Ignore)]
         public DCI_DateGenerator DateGenerator { get; set; }
 
         /// <summary>Defines individual <see cref="DCI_Value"/>s that are supported by this value range.</summary>
-        [JsonProperty("value_list")]
+        [JsonProperty("value_list", NullValueHandling = NullValueHandling.Ignore)]
         public List<DCI_Value> ValueList { get; set; }
 
         /// <summary>If true, there are no restrictions on the <see cref="DCI_DataValue.Value"/>.

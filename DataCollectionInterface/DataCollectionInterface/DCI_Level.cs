@@ -24,7 +24,7 @@ namespace DataCollectionInterface
         /// <item>the level belongs to a format within <see cref="DCI_Trait.Formats"/></item>
         /// <item>AND the level has <see cref="DCI_FormatType.IsIdentifying"/> set to true</item></list>
         /// </summary>
-        [JsonProperty("value")]
+        [JsonProperty("value", NullValueHandling = NullValueHandling.Ignore)]
         public string Value { get; set; }
 
     }
