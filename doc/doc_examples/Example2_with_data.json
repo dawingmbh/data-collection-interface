@@ -1,5 +1,5 @@
 {
-	"interface_version": "0.2.0",
+	"interface_version": "1.0",
 	"trial_management_software": {
 		"name": "smatrix",
 		"version": "2.0.0.2007"

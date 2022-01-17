@@ -16,7 +16,7 @@ namespace DataCollectionInterface
 
         /// <summary> Optional. If set, the content of this variable is used in <see cref="DCI_DataValue.Value"/>s.
         /// </summary>
-        [JsonProperty("storage")]
+        [JsonProperty("storage", NullValueHandling = NullValueHandling.Ignore)]
         public string Storage { get; set; }
     }
 }

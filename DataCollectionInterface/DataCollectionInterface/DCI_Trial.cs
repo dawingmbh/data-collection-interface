@@ -9,9 +9,9 @@ namespace DataCollectionInterface
     [Serializable]
     public class DCI_Trial
     {
-        public const string currentVersion = "0.2.0";
+        public const string currentVersion = "1.0";
         /// <summary>
-        /// Defined by a string concatenated by three numbers major.minor.patch e.g. "1.2.3"
+        /// Defined by a string concatenated by two numbers major.minor using a dot as separator e.g. "1.0"
         /// </summary>
         [JsonProperty("interface_version", DefaultValueHandling = DefaultValueHandling.Populate)]
         [DefaultValue(currentVersion)]
