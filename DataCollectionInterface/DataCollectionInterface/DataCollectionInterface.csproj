@@ -1,10 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<PackageId>de.dawin.DataCollectionInterface</PackageId>
 	</PropertyGroup>
@@ -20,7 +19,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Include="..\..\..\smatrix_interface\Interfaces.DCI\Properties\AssemblyVersionInfo.cs" Link="Properties\AssemblyVersionInfo.cs" />
+	  <Compile Remove="Properties\**" />
+	  <EmbeddedResource Remove="Properties\**" />
+	  <None Remove="Properties\**" />
 	</ItemGroup>
 
 	<ItemGroup>
