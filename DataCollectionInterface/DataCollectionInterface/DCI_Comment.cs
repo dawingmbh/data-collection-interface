@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel;
 
+
 namespace DataCollectionInterface
 {
     public class DCI_Comment
