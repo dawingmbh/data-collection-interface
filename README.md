@@ -43,4 +43,4 @@ In the simplest use case it boils down to defining rows and columns of a table, 
 ### Notes
 * For further information please have a look at the detailed documentation in doc/DataCollectionInterface.pdf
 * Class definitions for json serialization/deserialization in C# are provided.
-    * Note that this code uses nuget package MvvmCross.Plugin.Json
+    * Note that this code uses nuget package Newtonsoft.Json
